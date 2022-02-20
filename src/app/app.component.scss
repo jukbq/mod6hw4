@@ -1,0 +1,38 @@
+section {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #eeefef6e;
+    .phone_book {
+        width: 95vw;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+        .inputBlock {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            input {
+                width: 80%;
+                margin-left: 20px;
+            }
+            button {
+                width: 15%;
+            }
+        }
+    }
+    .modal-body {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .sort_btn {
+        border: none;
+        background: none;
+        font-weight: 700;
+    }
+}
+
+.contactString tr:hover {
+    background-color: #8080805d;
+}

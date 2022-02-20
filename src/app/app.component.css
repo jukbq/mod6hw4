@@ -1,0 +1,55 @@
+section {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #eeefef6e;
+}
+
+section .phone_book {
+  width: 95vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+section .phone_book .inputBlock {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .phone_book .inputBlock input {
+  width: 80%;
+  margin-left: 20px;
+}
+
+section .phone_book .inputBlock button {
+  width: 15%;
+}
+
+section .modal-body {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .sort_btn {
+  border: none;
+  background: none;
+  font-weight: 700;
+}
+
+.contactString tr:hover {
+  background-color: #8080805d;
+}
+/*# sourceMappingURL=app.component.css.map */
